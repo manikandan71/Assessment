@@ -10,10 +10,10 @@ function App() {
    <div>
     <Header/>
     <Grid container>
-      <Grid item xs={0.6} sm={0.6} lg={0.6} md={0.6}> 
+      <Grid item xs={1.7} sm={1.7} lg={0.6} md={0.6}> 
         <SideBar/>
       </Grid>
-      <Grid item xs={11.4} sm={11.4} lg={11.4} md={11.4}>
+      <Grid item xs={10.3} sm={10.3} lg={11.4} md={11.4}>
         <MainComponent/>
       </Grid>
     </Grid>
