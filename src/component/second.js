@@ -20,7 +20,7 @@ export default function Second() {
      <Grid container>
          <Grid item xs={12} sm={12} md={6} lg={6} className='gridAlign'>
            <Typography variant='p' style={{flex:1}}>Net Profit</Typography>
-           <Typography variant='h3'><b>$6759.25</b></Typography>
+           <Typography variant='h4'><b>$6759.25</b></Typography>
            <div style={{color: '#01D191'}}>
                 <ArrowDropUpIcon/>
                 <Typography variant='p'>3%</Typography>
@@ -36,8 +36,7 @@ export default function Second() {
             outerRadius="100%"
             sx={(theme) => ({
               [`& .${gaugeClasses.valueText}`]: {
-                fontSize: 30,
-                fill:'white !important',
+                
               },
               [`& .${gaugeClasses.valueArc}`]: {
                 fill: '#7294FF',

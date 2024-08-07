@@ -134,8 +134,13 @@
   gap: 2px;
   
 }
-.css-8fxm9z-MuiGauge-container text
+/* .css-8fxm9z-MuiGauge-container text
 {
+  fill: white !important;
+} */
+
+.MuiGauge-valueText text{
+  font-size: 20px;
   fill: white !important;
 }
 .gridAlign
