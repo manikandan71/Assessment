@@ -1,3 +1,9 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .App {
   text-align: center;
 }
@@ -36,3 +42,282 @@
     transform: rotate(360deg);
   }
 }
+
+.marginSpacing
+{
+  padding: 10px;
+}
+
+.topic
+{
+   color: white;
+    text-align: start;
+    padding: 10px;
+}
+
+.cardDesign
+{
+  border-radius: 10px !important;
+  height: 150px;
+  padding: 10px;
+  background-color:#202028 !important;
+  color: white !important;
+  align-items: start;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.cardSecondDesign
+{
+  border-radius: 10px !important;
+  /* height: 150px; */
+  padding: 10px;
+  background-color:#202028 !important;
+  color: white !important;
+}
+
+
+.insideCard
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.icnons
+{
+    font-size: 50px !important;
+    background: #293368;
+    padding: 5px;
+    color: #3F61FC;
+    border-radius: 5px;
+}
+.icnons1
+{
+    font-size: 50px !important;
+    background: #165246;
+    padding: 5px;
+    color: #00C98D;
+    border-radius: 5px;
+}
+.icnons2
+{
+    font-size: 50px !important;
+    background: #5F3237;
+    padding: 5px;
+    color: #F35D5F;
+    border-radius: 5px;
+}
+.icnons3
+{
+    font-size: 50px !important;
+    background: #5B2A4A;
+    padding: 5px;
+    color: #E740A5;
+    border-radius: 5px;
+}
+.iconsalign
+{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 5px;
+}
+
+.insideCard div
+{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  
+}
+.css-8fxm9z-MuiGauge-container text
+{
+  fill: white !important;
+}
+.gridAlign
+{
+  display: flex;
+  align-items: start;
+  flex-direction: column !important;
+  width: 100%;
+  height: 130px;
+}
+
+.gridAlign2
+{
+  display: flex;
+  align-items: center;
+  flex-direction: column !important;
+  width: 100%;
+  height: 130px;
+}
+
+.gridAlign div
+{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  
+}
+
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-line
+{
+  stroke: white !important;
+}
+.css-1k2u9zb-MuiChartsAxis-root .MuiChartsAxis-tickLabel
+{
+  fill: white !important;
+}
+
+.fourthAlign
+{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.fourthAlign div
+{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.fouricons
+{
+  background-color: #5F3237;
+  color: #EB6626;
+  font-size: 70px !important;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+
+
+.fouricons1
+{
+  background-color: #2A3265;
+  color: #6783E8;
+  font-size: 70px !important;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.fouricons2
+{
+  background-color: #204A61;
+  color: #25A3DC;
+  font-size: 70px !important;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.arrowIconss
+{
+
+  background-color: #46474B;
+  color: #E1E0E4;
+  font-size: 30px !important;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.arrowIconss2
+{
+
+  background-color: #46474B;
+  color: #E1E0E4;
+  font-size: 40px !important;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.css-1ex1afd-MuiTableCell-root
+{
+  color: white !important;
+}
+.css-177gid-MuiTableCell-root
+{
+  color: white !important;
+}
+
+.succesd
+{
+  background-color: #185246 !important;
+  color: #08AB7B !important;
+}
+
+.fails
+{
+  background-color: #5E3239 !important;
+  color: #BC4F54 !important;
+}
+.sixParent
+{
+  height: 520px;
+  overflow-y: scroll;
+  margin-top: 20px;
+  -ms-overflow-style: none;  
+  scrollbar-width: none; 
+}
+.sixAling
+{
+  display: flex;
+  align-items: start;
+  flex-direction: column !important;
+  gap: 5px;
+  flex-wrap: wrap;
+  border-bottom: 1px solid white;
+}
+
+.sixAling div
+{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.sixParent::-webkit-scrollbar { 
+  display: none;  
+}
+
+.css-hip9hq-MuiPaper-root-MuiAppBar-root
+{
+  background-color: #202028 !important;
+}
+
+.css-6hp17o-MuiList-root-MuiMenu-list
+{
+  background-color: #202028 !important;
+  color: white !important;
+}
+
+.sideBardesing
+{
+  padding: 10px;
+ background-color: #202028;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ gap: 40px;
+}
+
+.icnonSize
+{
+  color: #AFAFAF;
+  font-size: 36px !important;
+}
+
+.icnonSizeActive
+{
+  color: #7294FF;
+  font-size: 36px !important;
+}
+
+
